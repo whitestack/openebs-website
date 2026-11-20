@@ -25,7 +25,7 @@ By using this plugin, you get a simplified and consistent interface to manage mu
 
 ## Install Kubectl Plugin
 
-- The OpenEBS kubectl plugin is available for the Linux platform. You can download the binary from the [OpenEBS Releases](https://github.com/openebs/openebs/releases).
+- The OpenEBS kubectl plugin is available for the Linux platform. You can download the binary from the OpenEBS Releases.
 - After downloading, add the binary to your system’s $PATH.
 
 To verify the installation, run:

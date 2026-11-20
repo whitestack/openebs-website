@@ -131,7 +131,7 @@ See [Monitoring](rawfile-monitoring.md) for the full metrics reference.
 
 ## Support
 
-If you encounter issues or have a question, file a [Github issue](https://github.com/openebs/rawfile-localpv/issues/new), or talk to us on the [#openebs channel on the Kubernetes Slack server](https://kubernetes.slack.com/messages/openebs/).
+If you encounter issues or have a question, file a Github issue, or talk to us on the #openebs channel on the Kubernetes Slack server.
 
 ## See Also
 

@@ -96,12 +96,12 @@ cat /sys/devices/system/cpu/isolated
 ### Update Replicated PV Mayastor Helm Chart for CPU Core Specification
 
 :::info
-Update the [Helm value](https://github.com/openebs/mayastor-extensions/blob/6df062eb5a0864b82dcc709ab4d84a135252fe45/chart/values.yaml#L407) in the Replicated PV Mayastor Helm chart to specify the CPU core.
+Update the Helm value in the Replicated PV Mayastor Helm chart to specify the CPU core.
 :::
 
 To allot specific CPU cores for IO engine's reactors, follow these steps:
 
-1. Ensure that you have the Replicated PV Mayastor kubectl plugin installed, matching the version of your Replicated PV Mayastor Helm chart deployment ([releases](https://github.com/openebs/mayastor/releases)). You can find installation instructions in the [kubectl plugin documentation](../advanced-operations/kubectl-plugin.md).
+1. Ensure that you have the Replicated PV Mayastor kubectl plugin installed, matching the version of your Replicated PV Mayastor Helm chart deployment (releases). You can find installation instructions in the [kubectl plugin documentation](../advanced-operations/kubectl-plugin.md).
 
 2. Execute the following command to update Replicated PV Mayastor's configuration. Replace `<namespace>` with the appropriate Kubernetes namespace where Replicated PV Mayastor is deployed.
 

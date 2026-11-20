@@ -27,7 +27,7 @@ parameters:
 provisioner: local.csi.openebs.io
 ```
 
-Refer [Storage Classes](https://github.com/openebs/lvm-localpv/blob/develop/docs/storageclasses.md) to know all the supported parameters for Local PV LVM.
+Refer Storage Classes to know all the supported parameters for Local PV LVM.
 
 ## StorageClass Parameters Conformance Matrix
 
@@ -76,7 +76,7 @@ parameters:
 
 ## Support
 
-If you encounter issues or have a question, file a [Github issue](https://github.com/openebs/openebs/issues/new), or talk to us on the [#openebs channel on the Kubernetes Slack server](https://kubernetes.slack.com/messages/openebs/).
+If you encounter issues or have a question, file a Github issue, or talk to us on the #openebs channel on the Kubernetes Slack server.
 
 ## See Also
 

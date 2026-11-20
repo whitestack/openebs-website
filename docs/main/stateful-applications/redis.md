@@ -52,13 +52,13 @@ _Note: Redis can be deployed both as `Deployment` or as `StatefulSet`. When Redi
 
    For more information on installation, see Redis [documentation](https://github.com/helm/charts/tree/master/stable/redis).
 
-## Reference at [openebs.ci](https://openebs.ci/)
+## Reference at openebs.ci
 
-A live deployment of Redis using OpenEBS volumes as highly available data storage can be seen at the website [www.openebs.ci](https://openebs.ci/)
+A live deployment of Redis using OpenEBS volumes as highly available data storage can be seen at the website www.openebs.ci
 
-Deployment YAML spec files for Redis and OpenEBS resources are found [here](https://github.com/openebs/e2e-infrastructure/blob/54fe55c5da8b46503e207fe0bc08f9624b31e24c/production/redis-cstor/redis-statefulset.yaml)
+Deployment YAML spec files for Redis and OpenEBS resources are found here
 
-[OpenEBS-CI dashboard of Redis](https://openebs.ci/redis-cstor)
+OpenEBS-CI dashboard of Redis
 
 ## Post deployment Operations
 

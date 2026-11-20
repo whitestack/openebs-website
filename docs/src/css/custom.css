@@ -312,7 +312,7 @@
   width: 22px;
   height: 22px;
   display: block;
-  background: url('/img/github.svg') no-repeat center;
+  background: url('../../static/img/github.svg') no-repeat center;
   background-size: contain;
 }
 
@@ -369,4 +369,82 @@ footer.footer {
     margin-top: 15px;
     margin-bottom: 10px;
   }
+}
+
+
+/* ---------- Whitestack brand: navy bars, orange accent, neutral grays ---------- */
+:root {
+  --ifm-color-primary: #c2541a;
+  --ifm-color-primary-dark: #af4c17;
+  --ifm-color-primary-darker: #a54916;
+  --ifm-color-primary-darkest: #873b12;
+  --ifm-color-primary-light: #d35c1d;
+  --ifm-color-primary-lighter: #d9662a;
+  --ifm-color-primary-lightest: #e07f4c;
+  --ifm-navbar-background-color: #002263;
+  --ifm-navbar-link-color: #ffffff;
+  --ifm-navbar-link-hover-color: #ec7a3c;
+  --ifm-menu-color: #141419;
+  --ifm-menu-color-active: #c2541a;
+  --ifm-menu-color-background-active: #f3f4f6;
+  --ifm-menu-color-background-hover: #f3f4f6;
+  --ifm-background-surface-color: #f3f4f6;
+  --ifm-footer-background-color: #002263;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #ec7a3c;
+  --ifm-menu-color: #e3e3e3;
+  --ifm-menu-color-active: #ec7a3c;
+  --ifm-menu-color-background-active: #1f2230;
+  --ifm-menu-color-background-hover: #1f2230;
+  --ifm-background-surface-color: #1f2230;
+}
+
+/* The sidebar used the navbar color as background: keep it neutral now */
+.theme-doc-sidebar-container {
+  background-color: var(--ifm-background-color);
+}
+
+.navbar-github::before {
+  filter: brightness(0) invert(1);
+}
+
+footer.footer,
+[data-theme='dark'] footer.footer {
+  background-image: none;
+  background-color: #002263;
+  border-top: 0;
+}
+
+.footer__title,
+.footer__copyright {
+  color: #ffffff;
+}
+
+/* Neutral headings and orange links (no blue text) */
+.markdown h1,
+.markdown h2 {
+  color: var(--ifm-heading-color);
+}
+
+[data-theme='dark'] .markdown h1,
+[data-theme='dark'] .markdown h2 {
+  color: #ffffff;
+}
+
+.markdown a,
+.markdown .admonition a {
+  color: var(--ifm-color-primary);
+}
+
+.markdown a:hover,
+[data-theme='dark'] .markdown a:hover {
+  color: var(--ifm-color-primary-darker);
+  text-decoration: underline;
+}
+
+.navbar__items--right svg,
+.navbar .clean-btn {
+  color: #ffffff;
 }

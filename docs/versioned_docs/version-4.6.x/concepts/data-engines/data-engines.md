@@ -141,7 +141,7 @@ An important aspect of the OpenEBS Data Layer is that each volume replica is a f
 - When you need replication or availability features to protect against node failures.  
 - Replicated Storage is designed for the next-gen compute and storage technology and is under active development. 
 
-For the latest updates and discussions, community users are invited to join the [OpenEBS community on Kubernetes Slack](https://kubernetes.slack.com). If you are already signed up, head to our discussions at [#openebs](https://kubernetes.slack.com/messages/openebs/) channel.
+For the latest updates and discussions, community users are invited to join the [OpenEBS community on Kubernetes Slack](https://kubernetes.slack.com). If you are already signed up, head to our discussions at #openebs channel.
 
 ### Summary
 
@@ -150,7 +150,7 @@ For the latest updates and discussions, community users are invited to join the 
 
 ## Community Support via Slack
 
-Join the vibrant [OpenEBS community on Kubernetes Slack](https://kubernetes.slack.com) for assistance and discussions related to OpenEBS and Replicated Storage. If you have questions or seek further information, visit the[#openebs](https://kubernetes.slack.com/messages/openebs/) channel. If you are not already part of the community, you can sign up on Kubernetes Slack for a collaborative experience.
+Join the vibrant [OpenEBS community on Kubernetes Slack](https://kubernetes.slack.com) for assistance and discussions related to OpenEBS and Replicated Storage. If you have questions or seek further information, visit the#openebs channel. If you are not already part of the community, you can sign up on Kubernetes Slack for a collaborative experience.
 
 ## See Also
 

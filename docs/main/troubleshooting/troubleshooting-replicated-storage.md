@@ -449,5 +449,5 @@ Adjust `retention_period` and the maximum query range in the Loki `limits_config
 - [FAQs](../faqs/faqs.md)
 - [Release Notes](../releases.md)
 - [OpenEBS Community](../community.md)
-- [OpenEBS GitHub Repository](https://github.com/openebs/openebs/issues)
-- [StackOverflow under OpenEBS Tag](https://stackoverflow.com/questions/tagged/openebs)
+- OpenEBS GitHub Repository
+- StackOverflow under OpenEBS Tag

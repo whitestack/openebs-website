@@ -21,7 +21,7 @@ During a migration operation, both the source and destination nodes may maintain
 
 This document helps you test the workflow and provide feedback to the OpenEBS team.
 
-Refer [OEP: RWX Block Volume Support in Replicated PV Mayastor for KubeVirt](https://github.com/openebs/openebs/blob/develop/designs/replicated-pv/mayastor/rwx-kubevirt.md) for design/implementation details.
+Refer OEP: RWX Block Volume Support in Replicated PV Mayastor for KubeVirt for design/implementation details.
 
 :::warning Experimental feature
 This feature is experimental and should be evaluated in non-production environments only. Feedback is actively requested so the team can harden the implementation before it becomes generally available.
@@ -434,8 +434,8 @@ When sharing feedback, please focus on the following areas:
 
 Submit your feedback through one of the following channels:
 
-- [OpenEBS issues](https://github.com/openebs/openebs/issues)
-- [OpenEBS discussions](https://github.com/openebs/openebs/discussions)
+- OpenEBS issues
+- OpenEBS discussions
 
 To assist with troubleshooting and analysis, include the following information where applicable:
 

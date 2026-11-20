@@ -15,7 +15,7 @@ The **Mayastor kubectl plugin** can be used to view and manage Replicated PV May
 
 ## Install `kubectl Mayastor plugin`
 
-- The Mayastor kubectl plugin is available for the Linux platform. You can download the binary for the plugin from the [releases page](https://github.com/mayadata-io/mayastor-control-plane/releases). 
+- The Mayastor kubectl plugin is available for the Linux platform. You can download the binary for the plugin from the releases page. 
 
 - After downloading, add the downloaded Mayastor kubectl plugin under $PATH.
 
@@ -218,4 +218,4 @@ kubectl mayastor get volume-snapshots
 - The plugin currently does not have authentication support.
 - The plugin can operate only over HTTP.
 
-_[Learn more](https://github.com/openebs/mayastor-extensions/blob/develop/k8s/plugin/README.md)_
+_Learn more_

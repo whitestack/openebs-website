@@ -42,7 +42,7 @@ This document explains how to deploy an application that uses OpenEBS Local Pers
    ```
 
    :::note
-   The Local PV StorageClasses use `WaitForFirstConsumer`. Do not use `nodeName` in the Pod spec to select a node. If you do, the PVC remains in `Pending` state. Refer to the issue [#2915](https://github.com/openebs/openebs/issues/2915) for more details.
+   The Local PV StorageClasses use `WaitForFirstConsumer`. Do not use `nodeName` in the Pod spec to select a node. If you do, the PVC remains in `Pending` state. Refer to the issue #2915 for more details.
    :::
 
 2. Create the Pod.
@@ -185,7 +185,7 @@ kubectl get pv
 
 ## Support
 
-If you encounter issues or have a question, file a [Github issue](https://github.com/openebs/openebs/issues/new), or talk to us on the [#openebs channel on the Kubernetes Slack server](https://kubernetes.slack.com/messages/openebs/).
+If you encounter issues or have a question, file a Github issue, or talk to us on the #openebs channel on the Kubernetes Slack server.
 
 ## See Also
 

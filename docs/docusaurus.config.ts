@@ -2,15 +2,14 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-const WEBSITE_URL = 'https://openebs.io';
 
 // On Netlify deploy previews the site is served at the root of a standalone
-const baseUrl = '/docs/';
+const baseUrl = '/openebs-docs/';
 
 const config: Config = {
   title: 'OpenEBS Docs',
   tagline: 'OpenEBS Docs: Information regarding the latest releases',
-  url: WEBSITE_URL,
+  url: 'https://customers.whitestack.com',
   baseUrl,
   // Older 3.x versioned docs use absolute /docs/... paths from the 2.x site
   // which don't exist in the current site structure. These are archived content.
@@ -29,8 +28,8 @@ const config: Config = {
     },
   },
   favicon: 'img/favicon.ico',
-  organizationName: 'openebs',
-  projectName: 'website',
+  organizationName: 'whitestack',
+  projectName: 'openebs-website',
 
   future: {
     faster: {
@@ -69,7 +68,6 @@ const config: Config = {
           path: 'main',
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/openebs/website/edit/main/docs/',
           includeCurrentVersion: true,
           lastVersion: '4.6.x',
           // Exclude orphan legacy pages with broken links to deprecated content.
@@ -94,16 +92,11 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-        gtag: {
-          trackingID: 'G-BNB79447GR',
-          anonymizeIP: true,
-        },
       } satisfies Preset.Options,
     ],
   ],
 
   plugins: [
-    require.resolve('./plugins/contributors'),
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
       {
@@ -161,73 +154,22 @@ const config: Config = {
           position: 'right',
         },
         {
-          to: '/docs',
+          to: '/',
           label: 'Docs',
           position: 'right',
         },
-        {
-          to: `${WEBSITE_URL}/community`,
-          label: 'Community',
-          position: 'right',
-        },
-        {
-          to: `${WEBSITE_URL}/commercial-support`,
-          label: 'Commercial Support',
-          position: 'right',
-        },
-       {
-          to: `${WEBSITE_URL}/blog`,
-          label: 'Blog',
-          position: 'right',
-        },
-
         {
           href: 'https://github.com/openebs/openebs',
           position: 'right',
           className: 'navbar-github',
           'aria-label': 'GitHub',
         },
-        {
-          href: `${WEBSITE_URL}/community`,
-          position: 'right',
-          className: 'navbar-slack',
-          'aria-label': 'Slack',
-        },
       ],
     },
     footer: {
-      style: 'light',
-      links: [
-        {
-          title: 'Getting Started',
-          items: [
-            {label: 'Docs', to: '/'},
-            {label: 'GitHub', href: 'https://github.com/openebs/openebs'},
-            {label: 'Community', href: `${WEBSITE_URL}/community`},
-            {label: 'FAQ', href: `${WEBSITE_URL}/faq`},
-            {label: 'Blog', href: `${WEBSITE_URL}/blog`},
-            {label: 'Commercial Support', href: `${WEBSITE_URL}/commercial-support`},
-          ],
-        },
-        {
-          title: 'Contact Us',
-          items: [
-            {label: 'Email Us', href: `${WEBSITE_URL}/email-us`},
-            {label: 'Feature Request', href: `${WEBSITE_URL}/feature-request`},
-          ],
-        },
-        {
-          title: 'Social',
-          items: [
-            {label: 'GitHub', href: 'https://github.com/openebs/openebs'},
-            {label: 'Slack', href: `${WEBSITE_URL}/community`},
-            {label: 'Twitter', href: 'https://twitter.com/openebs'},
-            {label: 'LinkedIn', href: 'https://www.linkedin.com/company/openebs'},
-            {label: 'YouTube', href: 'https://www.youtube.com/channel/UC3ywadaAUQ1FI4YsHZ8wa0g'},
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} The OpenEBS Authors | All rights reserved`,
+      style: 'dark',
+      links: [],
+      copyright: `Copyright © ${new Date().getFullYear()} Whitestack. All rights reserved`,
     },
     prism: {
       theme: prismThemes.github,

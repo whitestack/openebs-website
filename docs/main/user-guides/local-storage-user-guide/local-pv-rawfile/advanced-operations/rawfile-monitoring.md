@@ -124,7 +124,7 @@ rawfile_pool_volumes_logical_bytes / rawfile_pool_capacity_bytes
 
 ## Support
 
-If you encounter issues or have a question, file a [Github issue](https://github.com/openebs/rawfile-localpv/issues/new), or talk to us on the [#openebs channel on the Kubernetes Slack server](https://kubernetes.slack.com/messages/openebs/).
+If you encounter issues or have a question, file a Github issue, or talk to us on the #openebs channel on the Kubernetes Slack server.
 
 ## See Also
 

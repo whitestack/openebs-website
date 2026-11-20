@@ -93,7 +93,7 @@ For installing OpenEBS, your Kubernetes cluster should meet the following:
 - Prepare the devices for use by data engines by making sure there are no filesystems installed or by creating an LVM volume group or ZFS Pool or partitioning the drives if required. 
 - Based on whether you are using an upstream Kubernetes cluster or a managed Kubernetes cluster like AKS, Rancher, OpenShift, or GKE, there may be additional steps required. 
 
-If your platform is missing from the above list, [raise an issue on the docs](https://github.com/openebs/openebs/issues/new/choose) or reach us on the [community slack](../community.md) to let us know. 
+If your platform is missing from the above list, raise an issue on the docs or reach us on the [community slack](../community.md) to let us know. 
 
 ## See Also
 

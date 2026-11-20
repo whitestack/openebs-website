@@ -35,7 +35,7 @@ OpenEBS provides Replicated Storage that can be used to deliver highly available
 
 ## Source Code and Contributions
 
-To access the Replicated Storage source code or actively contribute to the project, visit the [GitHub repository](https://github.com/openebs/mayastor).
+To access the Replicated Storage source code or actively contribute to the project, visit the GitHub repository.
 
 ## See Also
 

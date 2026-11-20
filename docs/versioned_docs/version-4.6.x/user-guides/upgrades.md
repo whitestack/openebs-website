@@ -61,7 +61,7 @@ Follow these steps to upgrade OpenEBS from version 3.x to 4.6:
     helm repo update
     ```
 
-2. Download the `kubectl openebs` binary from the [OpenEBS Release repository](https://github.com/openebs/openebs/releases) on GitHub.
+2. Download the `kubectl openebs` binary from the OpenEBS Release repository on GitHub.
 
 3. Execute `kubectl openebs upgrade -n <namespace>` to upgrade OpenEBS.
 
@@ -90,7 +90,7 @@ Follow these steps to upgrade OpenEBS from version 3.x to 4.6:
 
 Follow these steps to upgrade OpenEBS from version 4.x to 4.6:
 
-1. Download the `kubectl openebs` binary from the [OpenEBS Release repository](https://github.com/openebs/openebs/releases) on GitHub.
+1. Download the `kubectl openebs` binary from the OpenEBS Release repository on GitHub.
 
 2. Execute `kubectl openebs upgrade -n <namespace>` to upgrade OpenEBS.
 

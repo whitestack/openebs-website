@@ -23,7 +23,7 @@ Replicated PV Mayastor supports seamless upgrades starting with target version 2
 - Only upgrades are supported.Downgrading to earlier versions is not supported.
 - The upgrade operation utilises the [Kubectl mayastor Plugin](../advanced-operations/kubectl-plugin.md). Ensure you have the appropriate Kubectl Plugin installed, Use the kubectl plugin version that matches your target Mayastor version.
 - If Replicated PV Mayastor was installed using the `mayastor/mayastor` Helm chart, use the `kubectl mayastor` plugin for upgrades.
-- If Replicated PV Mayastor was installed using the `openebs/openebs` Helm chart, refer to the [OpenEBS upgrade documentation](https://openebs.io/docs/user-guides/upgrade).
+- If Replicated PV Mayastor was installed using the `openebs/openebs` Helm chart, refer to the OpenEBS upgrade documentation.
 - Volumes with single replica will be unavailable temporarily during upgrade.
 - The upgrade process is generally non-disruptive for volumes with a replication factor greater than one however verify that all replicas are healthy prior to upgrade
 

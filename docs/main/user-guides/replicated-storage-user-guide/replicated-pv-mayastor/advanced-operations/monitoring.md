@@ -203,7 +203,7 @@ volume{action="deleted"} 0
 
 If you'd rather not wire up Prometheus, Grafana, and Alertmanager from scratch, OpenEBS maintains a monitoring Helm chart with sample dashboards and alert rules built on top of these metrics:
 
-[github.com/openebs/monitoring](https://github.com/openebs/monitoring)
+github.com/openebs/monitoring
 
 ## Notes
 

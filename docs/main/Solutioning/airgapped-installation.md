@@ -105,7 +105,7 @@ Retain this `.tgz` file; [Install the Helm Chart](#3-install-the-helm-chart-air-
 
 ### `kubectl-openebs` Plugin (Optional but Recommended)
 
-The [plugin](https://openebs.io/docs/main/user-guides/kubectl-openebs) is useful for managing and troubleshooting OpenEBS. Download the release binary that matches your platform and version from the OpenEBS releases page, and copy it across with the other artifacts. Install it into the `PATH` on the host from which you will run `kubectl` against the air-gapped cluster, so that `kubectl openebs ...` works.
+The plugin is useful for managing and troubleshooting OpenEBS. Download the release binary that matches your platform and version from the OpenEBS releases page, and copy it across with the other artifacts. Install it into the `PATH` on the host from which you will run `kubectl` against the air-gapped cluster, so that `kubectl openebs ...` works.
 
 ## Pull Images and Push to Your Private Registry
 

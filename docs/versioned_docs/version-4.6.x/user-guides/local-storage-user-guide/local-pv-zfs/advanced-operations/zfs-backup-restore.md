@@ -12,7 +12,7 @@ description: This section talks about the advanced operations that can be perfor
 
 ## Prerequisites
 
-You should have installed the Local PV ZFS 1.0.0 or later version for the Backup and Restore. Refer [Local PV ZFS](https://github.com/openebs/zfs-localpv/blob/develop/README.md) for the steps to install the Local PV ZFS driver.
+You should have installed the Local PV ZFS 1.0.0 or later version for the Backup and Restore. Refer Local PV ZFS for the steps to install the Local PV ZFS driver.
 
 | Project | Minimum Version |
 | :--- | :--- |

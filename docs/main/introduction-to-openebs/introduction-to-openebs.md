@@ -14,11 +14,9 @@ OpenEBS turns any storage available to Kubernetes worker nodes into Local or Rep
 
 OpenEBS is also a leading choice for NVMe-based storage deployments.
 
-OpenEBS was originally built by MayaData and donated to the _Cloud Native Computing Foundation_.
-
 ## Why do users prefer OpenEBS?
 
-The [OpenEBS Adoption stories](https://github.com/openebs/community/blob/develop/ADOPTERS.md) mention the top reasons driving users towards OpenEBS as:
+The OpenEBS Adoption stories mention the top reasons driving users towards OpenEBS as:
 
 - OpenEBS provides consistency across all Kubernetes distributions - On-premise and Cloud.
 - OpenEBS with Kubernetes increases Developer and Platform SRE Productivity.
@@ -74,7 +72,7 @@ Installing OpenEBS in your cluster is as simple as running a few `kubectl` or `h
 
 ## Community Support via Slack
 
-OpenEBS has a vibrant community that can help you get started. If you have further questions and want to learn more about OpenEBS, join the [OpenEBS community on Kubernetes Slack](https://kubernetes.slack.com). If you are already signed up, head to our discussions at [#openebs](https://kubernetes.slack.com/messages/openebs/) channel.
+OpenEBS has a vibrant community that can help you get started. If you have further questions and want to learn more about OpenEBS, join the [OpenEBS community on Kubernetes Slack](https://kubernetes.slack.com). If you are already signed up, head to our discussions at #openebs channel.
 
 ## See Also
 

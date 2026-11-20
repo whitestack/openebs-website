@@ -53,13 +53,13 @@ MongoDB is a cross-platform document-oriented database. Classified as a NoSQL da
 
    For more information on installation, see MongoDB [documentation](https://github.com/helm/charts/tree/master/stable/mongodb).
 
-## Reference at [openebs.ci](https://openebs.ci/)
+## Reference at openebs.ci
 
-A live deployment of MongoDB using OpenEBS volumes can be seen at the website [www.openebs.ci](https://openebs.ci/)
+A live deployment of MongoDB using OpenEBS volumes can be seen at the website www.openebs.ci
 
-Deployment YAML spec files for MongoDB and OpenEBS resources are found [here](https://github.com/openebs/e2e-infrastructure/blob/54fe55c5da8b46503e207fe0bc08f9624b31e24c/production/mongo-cstor/mongo-cstor-mongo.yaml)
+Deployment YAML spec files for MongoDB and OpenEBS resources are found here
 
-[OpenEBS-CI dashboard of MongoDB](https://openebs.ci/mongo-cstor)
+OpenEBS-CI dashboard of MongoDB
 
 ## Post deployment Operations
 

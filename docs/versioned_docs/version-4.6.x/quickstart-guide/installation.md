@@ -43,7 +43,7 @@ Verify helm is installed and helm repo is updated. You need helm 3.2 or more.
     ```
     helm show chart openebs/openebs | yq '.annotations."helm.sh/images"'
     ```
-    Refer to the [OpenEBS helm chart](https://github.com/openebs/openebs/blob/main/charts/README.md#values) for configurable options.
+    Refer to the OpenEBS helm chart for configurable options.
     :::
 
 2. Install the OpenEBS helm chart with default values. 
@@ -218,7 +218,7 @@ You can follow through the below user guides for each of the engines to use stor
 
 ## Support
 
-If you encounter issues or have a question, file a [Github issue](https://github.com/openebs/openebs/issues/new), or talk to us on the [#openebs channel on the Kubernetes Slack server](https://kubernetes.slack.com/messages/openebs/).
+If you encounter issues or have a question, file a Github issue, or talk to us on the #openebs channel on the Kubernetes Slack server.
 
 ## See Also
 

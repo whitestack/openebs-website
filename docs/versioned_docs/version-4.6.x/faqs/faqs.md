@@ -151,7 +151,7 @@ Local PV ZFS is a CSI driver for dynamically provisioning a volume in ZFS storag
 
 ### How to upgrade the driver to newer version?
 
-Follow the instructions [here](https://github.com/openebs/zfs-localpv/tree/develop/upgrade).
+Follow the instructions here.
 
 ### ZFS Pools are there on certain nodes only, how can I create the storage class?
 
@@ -442,9 +442,9 @@ This documentation contains sections which are focused on initial quickstart dep
 
 Replicated Storage has been built to leverage the performance potential of contemporary, high-end, solid state storage devices as a foremost design consideration. For this reason, the I/O path is predicated on NVMe, a transport which is both highly CPU efficient and which demonstrates highly linear resource scaling. The data path runs entirely within user space, also contributing efficiency gains as syscalls are avoided, and is both interrupt and lock free.
 
-MayaData performance benchmarking was done in collaboration with Intel, using latest generation Intel P5800X Optane devices "The World's Fastest Data Centre SSD". In those tests it was determined that, on average, across a range of read/write ratios and both with and without synchronous mirroring enabled, the overhead imposed by the Replicated Storage's I/O path was well under 10% \(in fact, much closer to 6%\).
+Performance benchmarking was done in collaboration with Intel, using latest generation Intel P5800X Optane devices "The World's Fastest Data Centre SSD". In those tests it was determined that, on average, across a range of read/write ratios and both with and without synchronous mirroring enabled, the overhead imposed by the Replicated Storage's I/O path was well under 10% \(in fact, much closer to 6%\).
 
-Further information regarding the testing performed may be found [here](https://openebs.io/blog/mayastor-nvme-of-tcp-performance).
+Further information regarding the testing performed may be found here.
 
 ### What is the on-disk format used by Disk Pools? Is it also open source?
 

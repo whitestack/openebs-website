@@ -40,7 +40,7 @@ Once the storageClass is created, we can go ahead and create the PVC and deploy 
 
 ## StorageClass Backed by ZFS Volume
 
-There are a few applications that need to have different filesystems to work optimally. For example, Concourse performs best using the [“btrfs” filesystem](https://github.com/openebs/zfs-localpv/issues/169). Here we can create a StorageClass with the desired fstype we want. The ZFS-LocalPV driver will create a ZVOL, which is a raw block device carved out from the mentioned ZPOOL and format it to the desired filesystem for the applications to use as persistence storage backed by ZFS Storage Pool:
+There are a few applications that need to have different filesystems to work optimally. For example, Concourse performs best using the “btrfs” filesystem. Here we can create a StorageClass with the desired fstype we want. The ZFS-LocalPV driver will create a ZVOL, which is a raw block device carved out from the mentioned ZPOOL and format it to the desired filesystem for the applications to use as persistence storage backed by ZFS Storage Pool:
 
 ```yaml
 apiVersion: storage.k8s.io/v1
@@ -238,7 +238,7 @@ Here, the volumes will be provisioned on the nodes which has label “openebs.io
 
 ## Support
 
-If you encounter issues or have a question, file a [Github issue](https://github.com/openebs/openebs/issues/new), or talk to us on the [#openebs channel on the Kubernetes Slack server](https://kubernetes.slack.com/messages/openebs/).
+If you encounter issues or have a question, file a Github issue, or talk to us on the #openebs channel on the Kubernetes Slack server.
 
 ## See Also
 

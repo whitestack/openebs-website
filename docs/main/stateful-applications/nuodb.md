@@ -63,11 +63,11 @@ NuoDB’s distributed SQL database combines the elastic scale and continuous ava
    kubectl apply -f nuodb-te.yaml -n testns
    ```
 
-## Reference at [openebs.ci](https://openebs.ci/)
+## Reference at openebs.ci
 
-Deployment YAML spec files for NuoDB and OpenEBS resources are found [here](https://github.com/openebs/litmus/blob/master/apps/nuodb/deployers/nuodb.yaml)
+Deployment YAML spec files for NuoDB and OpenEBS resources are found here
 
-[OpenEBS-CI dashboard of NuoDB](https://openebs.ci/nuodb-cstor)
+OpenEBS-CI dashboard of NuoDB
 
 [Live access to NuoDB dashboard](https://insights.nuodb.com/3N5YV375G0/)
 

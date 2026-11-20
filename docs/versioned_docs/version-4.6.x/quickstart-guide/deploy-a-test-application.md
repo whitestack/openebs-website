@@ -87,7 +87,7 @@ The next step is to create a PVC. Pods will use PVCs to request Hostpath Local P
    ```
 
    :::note
-   As the Local PV storage classes use `waitForFirstConsumer`, do not use `nodeName` in the Pod spec to specify node affinity. If `nodeName` is used in the Pod spec, then PVC will remain in `pending` state. Refer to the issue [#2915](https://github.com/openebs/openebs/issues/2915) for more details.
+   As the Local PV storage classes use `waitForFirstConsumer`, do not use `nodeName` in the Pod spec to specify node affinity. If `nodeName` is used in the Pod spec, then PVC will remain in `pending` state. Refer to the issue #2915 for more details.
    :::
 
 2. Create the Pod.

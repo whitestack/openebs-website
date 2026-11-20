@@ -54,7 +54,7 @@ kubectl delete -f https://raw.githubusercontent.com/openebs/mayastor-control-pla
 In the above command, add the previously installed Replicated Storage's version in the format v1.x.x
 :::
 
-2. Once all the above components have been successfully removed, fetch the latest helm chart from [Mayastor-extension repo](https://github.com/openebs/mayastor-extensions) and save it to a file, say `helm_templates.yaml`. To do so, execute:
+2. Once all the above components have been successfully removed, fetch the latest helm chart from Mayastor-extension repo and save it to a file, say `helm_templates.yaml`. To do so, execute:
 
 **Command**
 
