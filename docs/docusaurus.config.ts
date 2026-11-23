@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 
 // On Netlify deploy previews the site is served at the root of a standalone
-const baseUrl = '/openebs-docs/';
+const baseUrl = '/whitecruiser-openebs/';
 
 const config: Config = {
   title: 'OpenEBS Docs',
@@ -145,26 +145,10 @@ const config: Config = {
       title: '',
       logo: {
         alt: 'OpenEBS Logo',
-        src: 'img/openebs-logo.svg',
+        src: 'img/openebs.svg',
         href: '/',
       },
-      items: [
-        {
-          type: 'docsVersionDropdown',
-          position: 'right',
-        },
-        {
-          to: '/',
-          label: 'Docs',
-          position: 'right',
-        },
-        {
-          href: 'https://github.com/openebs/openebs',
-          position: 'right',
-          className: 'navbar-github',
-          'aria-label': 'GitHub',
-        },
-      ],
+      items: [],
     },
     footer: {
       style: 'dark',

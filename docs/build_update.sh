@@ -1,7 +1,7 @@
 #!/bin/bash
 
 REPO="us-east1-docker.pkg.dev/whitestack-public-docs/whitestack-public-docs"
-NAME="openebs-docs"
+NAME="whitecruiser-openebs"
 DOCKERFILE=Dockerfile
 TAG="$(date -u +%Y%m%d-%H%M%S)"
 

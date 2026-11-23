@@ -3,7 +3,7 @@
     {
       "collapsed": true,
       "type": "category",
-      "label": "OpenEBS Documentation",
+      "label": "Introduction",
       "customProps": {
         "icon": "Smile"
       },
@@ -11,7 +11,7 @@
         {
           "type": "doc",
           "id": "introduction-to-openebs/overview",
-          "label": "Introduction to OpenEBS"
+          "label": "Overview"
         },
         {
           "type": "doc",
